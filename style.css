@@ -286,6 +286,7 @@ hr {
     padding: .6rem 0 0 0;
 }
 
+<<<<<<< HEAD
 
 
 .heading {
@@ -299,10 +300,14 @@ hr {
     grid-template-columns:repeat(2,1fr)
     
     }
+=======
+/* SOLUTIONS STYLING */
+>>>>>>> f89e1565604b7722e0a389f6ba4388b2e4b7741d
 
 
 
 
+<<<<<<< HEAD
 footer {
     text-align: center;
     background-color: blue;
@@ -342,3 +347,6 @@ footer {
     margin: 20px;
     border: none;
 }
+=======
+/* FOOTER STYLING */
+>>>>>>> f89e1565604b7722e0a389f6ba4388b2e4b7741d
