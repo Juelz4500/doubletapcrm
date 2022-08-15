@@ -286,9 +286,67 @@ hr {
     padding: .6rem 0 0 0;
 }
 
+<<<<<<< HEAD
+
+
+.heading {
+    flex:auto;
+    text-align: center;
+    margin-top: 200px;
+}
+
+.solutions {
+    display: grid;
+    grid-template-columns:repeat(2,1fr)
+    
+    }
+=======
 /* SOLUTIONS STYLING */
+>>>>>>> f89e1565604b7722e0a389f6ba4388b2e4b7741d
 
 
 
 
+<<<<<<< HEAD
+footer {
+    text-align: center;
+    background-color: blue;
+    height: 200px;
+    width: 100%;
+    
+}
+
+.double {
+    font-size: 40px;
+    color: aliceblue;
+    
+}
+
+.started {
+    text-align: center;
+    margin: 30px;
+    color: aliceblue;
+}
+
+.button1 {
+    background-color: green;
+    display: inline-block;
+    cursor: pointer;
+    font-size: 20px;
+    color: aliceblue;
+    padding: 14px 28px;
+    border: none;
+}
+
+.button2 {
+    background-color: white;
+    display: inline-block;
+    cursor: pointer;
+    font-size: 20px;
+    padding: 14px 28px;
+    margin: 20px;
+    border: none;
+}
+=======
 /* FOOTER STYLING */
+>>>>>>> f89e1565604b7722e0a389f6ba4388b2e4b7741d
