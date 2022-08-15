@@ -5,42 +5,138 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>CRM Main Page</title>
+    <script src="https://kit.fontawesome.com/705b6353fb.js" crossorigin="anonymous"></script>
+    <title>Welcome to DoubleTap!</title>
 </head>
 <body>
+<<<<<<< HEAD
+    <p>Hello world</p>
+=======
+    <!-- This is the navbar -->
+>>>>>>> c7863101d2de8b0b2360c4f016d7137d3d501e32
     <nav>
-        <!-- This is the navbar -->
-        <br><br>
+        <img src="/CRM-Main/Logo-1@2x.png" alt="double tap logo">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="features.html">Features</a></li>
+            <li><a href="pricing.html">Pricing</a></li>
+            <li><a href="howitworks.html">How It Works</a></li>
+            <li><a href="support.html">Support</a></li>
+        </ul>
+        <div class="navbuttons">
+            <button class="navwhitebutton" onclick="window.location.href='signin.html';" type="button">Sign In</button>     
+            <button class="navbluebutton" onclick="window.location.href='signup.html';" type="button">Try It Free</button>
+        </div>
     </nav>
-    <div style="background-color:lightblue;">
-        <!-- This is the Focus on Your Business Section -->
-        <!-- looks like we should split it into two columns? -->
-        <br><br><br><br><br><br><br><br><br><br>
+    <!-- This is the Focus on Your Business Section -->
+    <div class="focusonbusiness">
+        <div class="focusleft">
+                <h1>Focus on <br>Your Business</h1>
+                <h2>Let Us Handle Everything Else</h2>
+                <h3>Subscription Billing, powered with revenue retention tools and a seamless customer experience - without the technical hurdles.</h3>
+                <button class="focusbluebutton" onclick="window.location.href='signup.html';" type="button">Sign Up Free &nbsp;&nbsp;&nbsp; <i class="fa-solid fa-angles-right fa-lg"></i></button>
+                <button class="focuswhitebutton" onclick="window.location.href='contact.html';" type="button"><i class="fa-solid fa-comment-dots fa-lg"></i>&nbsp;&nbsp; Chat With Us</button>
+                <h3>Already using DoubleTap? &nbsp;<span><a href="signin.html">Sign In</a></span></h3>
+                <ul>
+                    <li>Free 14 day trial</li>
+                    <li><i class="fa-solid fa-circle"></i></li>
+                    <li>Manage Customers In Minutes</li>
+                    <li><i class="fa-solid fa-circle"></i></li>
+                    <li>Cancel at Anytime</li>
+                </ul>
+            </div>
+        <div class="focusright">
+            <img class="businessimg" src="/CRM-Main/Header-Side@2x.png">
+        </div>
     </div>
     <hr>
-    <div style="background-color:lightgreen;">
-        <!-- This is the Explore Double Tap Section -->
-        <!-- should just be easy with text -->
-        <br><br><br><br><br><br><br><br><br><br>
+    <!-- This is the Explore Double Tap Section -->
+    <div class="explore">
+        <h3>Start to Explore Double Tap</h3>
+        <br>
+        <h4>A new and better way for small businesses to manage their customer base, payments, and keep track of internal tasks.</h4>
     </div>
-    <div style="background-color:lightpink;">
-        <!-- This is the section with 4 side by side boxes -->
-        <!-- probably a good idea to use flexbox on it -->
-        <br><br><br><br><br><br><br><br><br><br>
+    <!-- This is the section with 4 side by side boxes -->
+    <div class="boxes">
+        <div class="boxitem">
+            <div class="boximage">
+                <img src="/CRM-Main/payments icon.png">
+            </div>
+            <p>Payments</p>
+        </div>
+        <div class="boxitem">
+            <div class="boximage">
+                <img src="/CRM-Main/Page-1@2x.png">
+            </div>
+            <p>Retain</p>
+        </div>
+        <div class="boxitem">
+            <div class="boximage">
+                <img src="/CRM-Main/layer1@2x.png">
+            </div>
+            <p>Reporting</p>
+        </div>
+        <div class="boxitem">
+            <div class="boximage">
+                <img src="/CRM-Main/upanddown opposite sidebyside updown directions two arrows@2x.png">
+            </div>
+            <p>Convert</p>
+        </div>
     </div>
-    <div style="background-color:lightskyblue;">
-        <!-- This is the credit card section in the middle -->
-        <!-- maybe two columns with the white and blue sides? -->
-        <br><br><br><br><br><br><br><br><br><br>
+    <!-- This is the credit card section in the middle -->
+    <div class="creditcard">
+        <div class="creditcardwhole">
+            <div class="creditcardleft">
+                <img src="/CRM-Main/credit-card-picture@2x.png">
+            </div>
+            <div class="creditcardright">
+                <h2>Start accepting payments with Ease</h2>
+                <h4>Deliver the world of payment options and seamless checkout experiences, making it easy for your customers to pay for your products and services.</h4>
+                <ul>
+                    <li>- Accept credit & debit cards, Paypal, ACH, Apple pay, and more with the flick of a switch</li>
+                    <li>- Process transactions in up to 32 different currencies</li>
+                    <li>- Integrate with popular payment gateways like Stripe and Braintree</li>
+                    <li>- Select from a variety of different checkout options and experiences</li>
+                </ul>
+                <button class="creditcardbutton" onclick="window.location.href='howitworks.html';" type="button">Learn More <i class="fa-solid fa-angle-right fa-xl"></i></button>
+            </div>
     </div>
-    <div style="background-color:lightgoldenrodyellow;">
-        <!-- This is the solutions to fit your business section -->
-        <!-- prob a text div at the top and then flexbox or grid for the 4 other sections in it -->
-        <br><br><br><br><br><br><br><br><br><br>
+    <div style="background-color:white;">
+        <div>
+            <h3 class=heading>Solutions to fit your Business Needs</h3>
+        </div>
+        <div>
+            <ul class="solutions">
+                <li class="1"><img src="CRM-Main/Path 60.png"><br>Email Dashboards
+                <br>
+                <p>Automate client responses, and keep track of any communication your team has with a client. </p></li>
+                <br>
+                <li class="2"><img src="CRM-Main/Path 236.png" ><br>Task Management
+                <br>
+                <p>Automate client responses, and keep track of any communication your team has with a client.</p></li>
+                <br>
+                <li class="3"><img src="CRM-Main/layer1.png"><br>Analytics
+                <br>
+                <p>Automate client responses, and keep track of any communication your team has with a client.</p></li>
+                <br>
+                <li class="4"><img src="CRM-Main/upanddown opposite sidebyside updown directions two arrows.png"><br> Calenders
+                <br>
+                <p>Automate client responses, and keep track of any communication your team has with a client.</p></li>
+             </ul>
+        </div>
+
+     <br><br><br><br><br><br><br><br><br><br>
     </div>
     <footer>
-        <!-- This is the footer with "try double tap today" -->
+        <h1 class="double">Try Double Tap Today!</h1>
+        <h3 class="started">Let's Get Started</h3>
+        <a class="button1" type="button" href="blank">Get Started</a>
+        <a class="button2" type="button" href="blank">Chat with Us</a>
+        <ul>
+           <li>First 14 day trial</li>
+           <li>Manager Customers in Minutes</li>
+           <li>Cancel Anytime</li>
+        </ul>
     </footer>
-    
 </body>
 </html>
