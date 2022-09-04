@@ -286,8 +286,7 @@ hr {
     padding: .6rem 0 0 0;
 }
 
-<<<<<<< HEAD
-
+/* SOLUTIONS STYLING */
 
 .heading {
     flex:auto;
@@ -299,15 +298,10 @@ hr {
     display: grid;
     grid-template-columns:repeat(2,1fr)
     
-    }
-=======
-/* SOLUTIONS STYLING */
->>>>>>> f89e1565604b7722e0a389f6ba4388b2e4b7741d
+}
 
+/* FOOTER STYLING */
 
-
-
-<<<<<<< HEAD
 footer {
     text-align: center;
     background-color: blue;
@@ -347,6 +341,33 @@ footer {
     margin: 20px;
     border: none;
 }
-=======
-/* FOOTER STYLING */
->>>>>>> f89e1565604b7722e0a389f6ba4388b2e4b7741d
+
+/* sign up styling  */
+.container {
+    display: flex;
+    max-width: 1000px;
+    height: 650px;
+    float: left;
+}
+
+.form-group-sign-up  {
+    margin-top: 75px;
+    max-width: 400px;
+}
+
+h4 {
+    margin-top: 40px;
+
+}
+
+.btn btn-primary {
+    align-items: center
+}
+
+.sign-up-h1 {
+    text-size-adjust: 0rem;
+}
+
+.div2 {
+    float: right;
+}
